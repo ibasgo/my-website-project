@@ -1,0 +1,31 @@
+---
+title: "Membuat Kurva Epidemi di R dengan ggplot2"
+description: "Panduan langkah demi langkah membuat epi curve yang rapi untuk laporan surveilans."
+date: "2026-08-12"
+categories: [R, Visualisasi, Tutorial]
+---
+
+Kurva epidemi menampilkan jumlah kasus baru per satuan waktu. Grafik ini penting
+untuk membaca pola wabah. Berikut cara membuatnya di R.
+
+## Data contoh
+
+```r
+library(ggplot2)
+kasus <- data.frame(
+  minggu = 1:11,
+  jumlah = c(24, 36, 58, 82, 96, 86, 66, 46, 32, 22, 16)
+)
+```
+
+## Membuat grafik
+
+```r
+ggplot(kasus, aes(minggu, jumlah)) +
+  geom_col(fill = "#d7ebe8") +
+  geom_line(color = "#dd5b34", linewidth = 1) +
+  labs(x = "Minggu", y = "Jumlah kasus") +
+  theme_minimal()
+```
+
+Puncak terlihat di minggu ke-5. Dari sini Anda bisa membaca fase naik dan turun wabah.

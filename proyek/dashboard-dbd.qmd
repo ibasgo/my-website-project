@@ -1,0 +1,22 @@
+---
+title: "Dashboard Surveilans DBD"
+description: "Pemantauan kasus demam berdarah per kecamatan dengan peta panas dan tren mingguan."
+date: "2026-06-10"
+categories: [Dashboard, R Shiny]
+image: img-dbd.png
+---
+
+## Ringkasan
+
+Dashboard interaktif untuk memantau kasus demam berdarah dengue tingkat kecamatan.
+Menampilkan peta panas, tren mingguan, dan indikator kewaspadaan dini.
+
+## Peran
+
+Perancangan alur data, pembuatan visualisasi, dan penataan dashboard.
+
+## Alat
+
+R, Shiny, sf, leaflet.
+
+[Demo langsung](#){.btn-out} &nbsp; [Kode di GitHub](#){.btn-out}

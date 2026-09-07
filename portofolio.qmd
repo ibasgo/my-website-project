@@ -1,0 +1,15 @@
+---
+title: "Portofolio"
+listing:
+  contents: proyek
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  categories: false
+  fields: [image, title, description, categories]
+  image-height: 150px
+---
+
+::: {.sec-intro}
+Analisis dan dashboard yang saya kerjakan. Setiap kartu tautkan ke halaman detail, repo GitHub, atau demo langsung.
+:::

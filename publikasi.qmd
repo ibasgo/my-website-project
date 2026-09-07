@@ -1,0 +1,14 @@
+---
+title: "Publikasi & Penelitian"
+bibliography: referensi.bib
+nocite: |
+  @*
+---
+
+::: {.sec-intro}
+Daftar jurnal, prosiding, dan laporan. Quarto menarik daftar ini otomatis dari file `referensi.bib`. Anda cukup tambah entri baru di file itu.
+:::
+
+---
+
+### Daftar publikasi

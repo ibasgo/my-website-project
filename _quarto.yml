@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ibasgo"
+  description: "Portofolio Muhammad Ilham Basgoro, Epidemiolog & Analis Data"
+  site-url: "https://ibasgo.github.io"
+  navbar:
+    background: light
+    pinned: false
+    right:
+      - text: "Tentang"
+        href: index.qmd
+      - text: "Portofolio"
+        href: portofolio.qmd
+      - text: "Publikasi"
+        href: publikasi.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "CV"
+        href: cv.qmd
+      - icon: github
+        href: https://github.com/ibasgo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/ilham-basgoro
+        aria-label: LinkedIn
+  page-footer:
+    left: "Muhammad Ilham Basgoro © 2026"
+    right: "Dibuat dengan Quarto"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    grid:
+      body-width: 1060px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">

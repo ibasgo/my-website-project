@@ -1,0 +1,18 @@
+---
+title: "Uji Diagnostik RDT Malaria"
+description: "Evaluasi sensitivitas dan spesifisitas rapid test dibanding mikroskopis."
+date: "2026-02-18"
+categories: [Riset, Quarto]
+image: img-malaria.png
+---
+
+## Ringkasan
+
+Evaluasi akurasi rapid diagnostic test malaria dibanding standar mikroskopis.
+Menghitung sensitivitas, spesifisitas, dan nilai prediksi.
+
+## Alat
+
+R, epiR, Quarto.
+
+[Publikasi](#){.btn-out} &nbsp; [Data](#){.btn-out}

@@ -1,0 +1,14 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+  fields: [date, title, description, reading-time, categories]
+---
+
+::: {.sec-intro}
+Catatan, tutorial R, dan pengalaman riset. Ini bagian Quarto yang paling kuat. Tulis dalam `.qmd`, kode dan hasilnya jalan otomatis.
+:::

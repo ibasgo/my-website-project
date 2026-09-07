@@ -1,0 +1,20 @@
+---
+title: "Analisis Survival: Kaplan-Meier untuk Pemula"
+description: "Konsep dasar analisis ketahanan hidup dan cara menjalankannya di R."
+date: "2026-07-28"
+categories: [R, Metode, Survival]
+---
+
+Analisis survival mengukur waktu sampai suatu kejadian terjadi. Contohnya waktu
+sampai sembuh atau sampai kambuh.
+
+## Menjalankan di R
+
+```r
+library(survival)
+fit <- survfit(Surv(waktu, status) ~ kelompok, data = pasien)
+plot(fit)
+```
+
+Kurva Kaplan-Meier menunjukkan probabilitas bertahan pada tiap titik waktu.
+Perbedaan antarkelompok diuji dengan log-rank test.

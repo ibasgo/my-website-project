@@ -1,0 +1,353 @@
+/*-- scss:defaults --*/
+
+// Palet
+$ink: #132437;
+$ink-soft: #3a4a5c;
+$paper: #f6f4ee;
+$card: #ffffff;
+$line: #e2ddd2;
+$teal: #0f766e;
+$teal-soft: #d7ebe8;
+$signal: #dd5b34;
+$slate: #7a8494;
+
+// Variabel Bootstrap/Quarto
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $teal;
+$navbar-bg: rgba(246, 244, 238, 0.85);
+$navbar-fg: $ink-soft;
+$font-family-sans-serif: "IBM Plex Sans", system-ui, sans-serif;
+$headings-font-family: "Fraunces", serif;
+$font-family-monospace: "IBM Plex Mono", monospace;
+$headings-font-weight: 600;
+$border-radius: 12px;
+
+/*-- scss:rules --*/
+
+body {
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.015em;
+}
+
+.navbar {
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid $line;
+}
+
+.navbar-brand {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+}
+
+
+// Penanda bagian
+.sec-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $signal;
+  margin-bottom: 0.5rem;
+}
+
+.sec-intro {
+  color: $ink-soft;
+  max-width: 60ch;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+// Hero
+.hero {
+  padding: 2rem 0;
+  min-height: calc(120vh - 140px);
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.9fr;
+  gap: 3rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $teal;
+  margin-bottom: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  line-height: 1;
+}
+
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.05;
+  margin-bottom: 1.1rem;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: $signal;
+}
+
+.hero-lead {
+  font-size: 1.12rem;
+  color: $ink-soft;
+  max-width: 46ch;
+  margin-bottom: 1.6rem;
+  line-height: 1.6rem;
+}
+
+.btn-ink {
+  background: $ink;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font-weight: 500;
+  font-size: 0.92rem;
+  display: inline-flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: all .18s;
+}
+
+.btn-ink:hover {
+  background: $teal;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.btn-out {
+  border: 1px solid $line;
+  background: $card;
+  color: $ink;
+  border-radius: 8px;
+  padding: 0.65rem 1.25rem;
+  font-weight: 500;
+  font-size: 0.92rem;
+  display: inline-flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: all .18s;
+}
+
+.btn-out:hover {
+  border-color: $teal;
+  color: $teal;
+}
+
+// Kartu kurva epidemi
+.signature {
+  background: $card;
+  border: 1px solid $line;
+  border-radius: 16px;
+  padding: 1.4rem;
+  box-shadow: 0 8px 24px rgba(19, 36, 55, .06);
+}
+
+.sig-title {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: $slate;
+  text-transform: uppercase;
+}
+
+.sig-val {
+  font-family: "Fraunces", serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.sig-val small {
+  font-size: 0.8rem;
+  color: $signal;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.sig-foot {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+  color: $slate;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+svg .bar {
+  fill: $teal-soft;
+}
+
+svg .curve {
+  fill: none;
+  stroke: $signal;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-dasharray: 520;
+  stroke-dashoffset: 520;
+  animation: draw 2.2s ease .3s forwards;
+}
+
+svg .dot {
+  fill: $signal;
+  opacity: 0;
+  animation: pop .4s ease 2.1s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pop {
+  to {
+    opacity: 1;
+  }
+}
+
+// Timeline & chip
+.tl-item {
+  padding-left: 1.35rem;
+  border-left: 2px solid $line;
+  position: relative;
+  padding-bottom: 1.35rem;
+}
+
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: -6px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $teal;
+  border: 2px solid $paper;
+}
+
+.tl-item:last-child {
+  padding-bottom: 0;
+}
+
+.tl-year {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  color: $signal;
+}
+
+.tl-role {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.tl-org {
+  font-size: 0.88rem;
+  color: $slate;
+}
+
+.tl-solo {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.tl-solo::before {
+  content: none;
+}
+
+.chip {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  background: $teal-soft;
+  color: $teal;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 0.35rem 0.35rem 0;
+}
+
+// Panel CV/Kontak
+.panel {
+  background: $card;
+  border: 1px solid $line;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(19, 36, 55, .06);
+  height: 100%;
+}
+
+.contact-row {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid $line;
+  font-size: 0.92rem;
+}
+
+.contact-row:last-child {
+  border: 0;
+}
+
+.contact-row .k {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  color: $slate;
+  width: 80px;
+  text-transform: uppercase;
+}
+
+// Kartu listing Quarto
+.quarto-listing .card {
+  border: 1px solid $line;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(19, 36, 55, .05);
+  transition: transform .18s, box-shadow .18s;
+}
+
+.quarto-listing .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(19, 36, 55, .1);
+}
+
+.listing-category {
+  font-family: "IBM Plex Mono", monospace !important;
+  background: $teal-soft !important;
+  color: $teal !important;
+  border: 0 !important;
+}
+
+@media (max-width: 820px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .signature {
+    order: -1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  svg .curve {
+    stroke-dashoffset: 0;
+  }
+
+  svg .dot {
+    opacity: 1;
+  }
+}

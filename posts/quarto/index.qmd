@@ -1,0 +1,19 @@
+---
+title: "Kenapa Saya Pindah dari Word ke Quarto"
+description: "Alur kerja riset yang bisa diulang, dari analisis sampai laporan akhir."
+date: "2026-07-05"
+categories: [Quarto, Produktivitas]
+---
+
+Word memisahkan analisis dan laporan. Setiap data berubah, saya harus salin ulang
+angka dan grafik. Quarto menyatukan keduanya.
+
+## Satu sumber
+
+Kode, hasil, dan narasi ada di satu file `.qmd`. Data berubah, laporan ikut
+diperbarui saat dirender.
+
+## Banyak format
+
+Dari satu file bisa dihasilkan HTML, PDF, dan Word. Website ini juga dibuat
+dengan Quarto.

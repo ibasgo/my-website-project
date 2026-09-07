@@ -1,0 +1,38 @@
+---
+title: "CV & Kontak"
+---
+
+::: {.sec-intro}
+Dua hal yang paling sering dicari pengunjung. Buat mudah diakses.
+:::
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+::: {.panel}
+### Curriculum Vitae
+
+Riwayat pendidikan, publikasi, dan pengalaman lengkap. Quarto bisa hasilkan CV format PDF dan HTML dari satu sumber.
+
+[↓ Unduh CV (PDF)](#){.btn-ink}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.panel}
+### Kontak
+
+::: {.contact-row}
+[Email]{.k} ilham.basgoro@email.com
+:::
+::: {.contact-row}
+[GitHub]{.k} github.com/ibasgo
+:::
+::: {.contact-row}
+[LinkedIn]{.k} in/ilham-basgoro
+:::
+::: {.contact-row}
+[Lokasi]{.k} Padang, Indonesia
+:::
+:::
+:::
+::::

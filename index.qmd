@@ -1,0 +1,119 @@
+---
+pagetitle: "Ibasgo — Epidemiolog & Analis Data"
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-grid}
+::: {}
+::: {.eyebrow}
+Epidemiolog | Data Analyst Enthusiast | GIS Enthusiast
+:::
+# Dari data, menjadi [insight]{style="font-style:italic;color:#dd5b34"}. Dari insight, menjadi [keputusan]{style="font-style:italic;color:#dd5b34"}.{.hero-title}
+
+
+<br>
+
+::: {.hero-lead}
+Halo, saya Muhammad Ilham Basgoro 👋<br>
+Saya percaya data yang baik dapat menghasilkan pemahaman yang lebih baik 🙌<br>
+Anda dapat mengakses portofolio dan CV saya di bawah ini👌
+:::
+
+[Lihat Portofolio](portofolio.qmd){.btn-ink} &nbsp; [Unduh CV](cv.qmd){.btn-out}
+:::
+
+::: {.signature}
+::: {.sig-title}
+Kurva Kasus Mingguan
+:::
+::: {.sig-val}
+1.284 <small>kasus</small>
+:::
+```{=html}
+<svg viewBox="0 0 320 120" width="100%" height="120" role="img" aria-label="Kurva epidemi">
+  <rect class="bar" x="6"  y="92" width="20" height="24"/><rect class="bar" x="34" y="80" width="20" height="36"/>
+  <rect class="bar" x="62" y="58" width="20" height="58"/><rect class="bar" x="90" y="34" width="20" height="82"/>
+  <rect class="bar" x="118" y="20" width="20" height="96"/><rect class="bar" x="146" y="30" width="20" height="86"/>
+  <rect class="bar" x="174" y="50" width="20" height="66"/><rect class="bar" x="202" y="70" width="20" height="46"/>
+  <rect class="bar" x="230" y="84" width="20" height="32"/><rect class="bar" x="258" y="94" width="20" height="22"/>
+  <rect class="bar" x="286" y="100" width="20" height="16"/>
+  <path class="curve" d="M16,100 L44,86 L72,64 L100,40 L128,26 L156,36 L184,56 L212,76 L240,90 L268,100 L296,106"/>
+  <circle class="dot" cx="128" cy="26" r="4.5"/>
+</svg>
+```
+::: {.sig-foot}
+[M1 — M11]{} [▲ puncak M5]{style="color:#dd5b34"}
+:::
+:::
+:::
+:::
+
+
+::: {.sec-label}
+01 — Tentang
+:::
+## Sedikit tentang saya
+
+::: {.sec-intro}
+Latar belakang kesehatan masyarakat dan epidemiologi. Fokus pada analisis data, surveilans penyakit, dan penelitian yang menghasilkan bukti untuk pengambilan keputusan.
+:::
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+**Pendidikan & Karier**
+
+::: {.tl-item}
+::: {.tl-year}
+2026 — sekarang
+:::
+::: {.tl-role}
+Asisten Dosen
+:::
+::: {.tl-org}
+Universitas Andalas
+:::
+:::
+::: {.tl-item}
+::: {.tl-year}
+2025 — 2026
+:::
+::: {.tl-role}
+S2 Epidemiologi
+:::
+::: {.tl-org}
+Universitas Andalas
+:::
+:::
+::: {.tl-item}
+::: {.tl-year}
+2021 — 2025
+:::
+::: {.tl-role}
+S1 Kesehatan Masyarakat
+:::
+::: {.tl-org}
+Universitas Andalas
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+**Keahlian**
+
+[R]{.chip} [Python]{.chip} [Quarto]{.chip} [Stata]{.chip} [GIS]{.chip}
+
+<br>
+
+**Sertifikasi**
+
+::: {.tl-solo}
+::: {.tl-year}
+2025 — 2028
+:::
+::: {.tl-role}
+Certified Data Analyst (CDA)
+:::
+:::
+:::
+::::

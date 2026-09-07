@@ -1,0 +1,18 @@
+---
+title: "Tren Cakupan Imunisasi"
+description: "Visualisasi capaian imunisasi dasar lengkap 2019 sampai 2025 tingkat provinsi."
+date: "2025-11-20"
+categories: [Data Viz, Tableau]
+image: img-imunisasi.png
+---
+
+## Ringkasan
+
+Dashboard tren cakupan imunisasi dasar lengkap per provinsi.
+Membandingkan capaian antarwilayah dari waktu ke waktu.
+
+## Alat
+
+Tableau, data profil kesehatan.
+
+[Dashboard](#){.btn-out}

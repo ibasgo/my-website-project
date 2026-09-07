@@ -1,0 +1,77 @@
+{
+  "index.qmd": {
+    "index.html": "4b3615c7"
+  },
+  "projects/index.qmd": {
+    "index.html": "a84ff542"
+  },
+  "blog/third-post/index.ipynb": {
+    "index.html": "0a8ddb8a"
+  },
+  "blog/first-post/index.qmd": {
+    "index.html": "19da512e"
+  },
+  "blog/second-post/index.qmd": {
+    "index.html": "955f686f"
+  },
+  "pub-listing.qmd": {
+    "pub-listing.html": "6ada5ba0"
+  },
+  "teaching.qmd": {
+    "teaching.html": "6d4c06fa"
+  },
+  "posts/paper-title/index.qmd": {
+    "index.html": "b4a6ecc3"
+  },
+  "posts/event-title/index.qmd": {
+    "index.html": "dcf2ec28"
+  },
+  "posts/news-title/index.qmd": {
+    "index.html": "e92a5e99"
+  },
+  "projects.qmd": {
+    "projects.html": "3df12867"
+  },
+  "publications.qmd": {
+    "publications.html": "3e1e9f11"
+  },
+  "people.qmd": {
+    "people.html": "b44f49ce"
+  },
+  "posts.qmd": {
+    "posts.html": "19aa1ad1"
+  },
+  "posts/kurva-epidemi/index.qmd": {
+    "index.html": "84041b20"
+  },
+  "posts/kaplan-meier/index.qmd": {
+    "index.html": "27c27060"
+  },
+  "posts/quarto/index.qmd": {
+    "index.html": "e05db1e4"
+  },
+  "publikasi.qmd": {
+    "publikasi.html": "b1dfd723"
+  },
+  "portofolio.qmd": {
+    "portofolio.html": "1f43e23d"
+  },
+  "cv.qmd": {
+    "cv.html": "a8d2ee21"
+  },
+  "proyek/stunting.qmd": {
+    "stunting.html": "718ecfdc"
+  },
+  "proyek/malaria-rdt.qmd": {
+    "malaria-rdt.html": "76df4982"
+  },
+  "proyek/imunisasi.qmd": {
+    "imunisasi.html": "fbdc831f"
+  },
+  "proyek/dashboard-dbd.qmd": {
+    "dashboard-dbd.html": "5ac09ccf"
+  },
+  "blog.qmd": {
+    "blog.html": "ecf09749"
+  }
+}

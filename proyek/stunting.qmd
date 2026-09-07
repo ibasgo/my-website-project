@@ -1,0 +1,23 @@
+---
+title: "Faktor Risiko Stunting"
+description: "Analisis regresi logistik faktor determinan stunting balita dari data Riskesdas."
+date: "2026-04-02"
+categories: [Analisis, Python]
+image: img-stunting.png
+---
+
+## Ringkasan
+
+Analisis faktor determinan stunting pada balita menggunakan regresi logistik.
+Mengidentifikasi variabel yang paling berhubungan dengan kejadian stunting.
+
+## Temuan utama
+
+Pendidikan ibu, akses air bersih, dan riwayat berat lahir rendah muncul sebagai
+faktor paling kuat.
+
+## Alat
+
+Python, pandas, statsmodels.
+
+[Laporan lengkap](#){.btn-out} &nbsp; [Kode di GitHub](#){.btn-out}
