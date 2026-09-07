@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ibasgo</title>
+<link>https://ibasgo.github.io/blog.html</link>
+<atom:link href="https://ibasgo.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Portofolio Muhammad Ilham Basgoro, Epidemiolog &amp; Analis Data</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 11 Aug 2026 17:00:00 GMT</lastBuildDate>
+<item>
+  <title>Membuat Kurva Epidemi di R dengan ggplot2</title>
+  <link>https://ibasgo.github.io/posts/kurva-epidemi/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Kurva epidemi menampilkan jumlah kasus baru per satuan waktu. Grafik ini penting untuk membaca pola wabah. Berikut cara membuatnya di R.</p>
+<section id="data-contoh" class="level2">
+<h2 class="anchored" data-anchor-id="data-contoh">Data contoh</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-2">kasus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">data.frame</span>(</span>
+<span id="cb1-3">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">minggu =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>,</span>
+<span id="cb1-4">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">jumlah =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">24</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">36</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">58</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">82</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">96</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">86</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">66</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">46</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">32</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">22</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">16</span>)</span>
+<span id="cb1-5">)</span></code></pre></div></div>
+</section>
+<section id="membuat-grafik" class="level2">
+<h2 class="anchored" data-anchor-id="membuat-grafik">Membuat grafik</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(kasus, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(minggu, jumlah)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_col</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#d7ebe8"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#dd5b34"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linewidth =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Minggu"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Jumlah kasus"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
+<p>Puncak terlihat di minggu ke-5. Dari sini Anda bisa membaca fase naik dan turun wabah.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Visualisasi</category>
+  <category>Tutorial</category>
+  <guid>https://ibasgo.github.io/posts/kurva-epidemi/</guid>
+  <pubDate>Tue, 11 Aug 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Analisis Survival: Kaplan-Meier untuk Pemula</title>
+  <link>https://ibasgo.github.io/posts/kaplan-meier/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Analisis survival mengukur waktu sampai suatu kejadian terjadi. Contohnya waktu sampai sembuh atau sampai kambuh.</p>
+<section id="menjalankan-di-r" class="level2">
+<h2 class="anchored" data-anchor-id="menjalankan-di-r">Menjalankan di R</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(survival)</span>
+<span id="cb1-2">fit <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">survfit</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">Surv</span>(waktu, status) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> kelompok, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> pasien)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot</span>(fit)</span></code></pre></div></div>
+<p>Kurva Kaplan-Meier menunjukkan probabilitas bertahan pada tiap titik waktu. Perbedaan antarkelompok diuji dengan log-rank test.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Metode</category>
+  <category>Survival</category>
+  <guid>https://ibasgo.github.io/posts/kaplan-meier/</guid>
+  <pubDate>Mon, 27 Jul 2026 17:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Kenapa Saya Pindah dari Word ke Quarto</title>
+  <link>https://ibasgo.github.io/posts/quarto/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Word memisahkan analisis dan laporan. Setiap data berubah, saya harus salin ulang angka dan grafik. Quarto menyatukan keduanya.</p>
+<section id="satu-sumber" class="level2">
+<h2 class="anchored" data-anchor-id="satu-sumber">Satu sumber</h2>
+<p>Kode, hasil, dan narasi ada di satu file <code>.qmd</code>. Data berubah, laporan ikut diperbarui saat dirender.</p>
+</section>
+<section id="banyak-format" class="level2">
+<h2 class="anchored" data-anchor-id="banyak-format">Banyak format</h2>
+<p>Dari satu file bisa dihasilkan HTML, PDF, dan Word. Website ini juga dibuat dengan Quarto.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Quarto</category>
+  <category>Produktivitas</category>
+  <guid>https://ibasgo.github.io/posts/quarto/</guid>
+  <pubDate>Sat, 04 Jul 2026 17:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

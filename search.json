@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Catatan, tutorial R, dan pengalaman riset. Ini bagian Quarto yang paling kuat. Tulis dalam .qmd, kode dan hasilnya jalan otomatis.\n\n\n\n\n\n\n\n\n\n\nMembuat Kurva Epidemi di R dengan ggplot2\n\n\n\nR\n\nVisualisasi\n\nTutorial\n\n\n\nPanduan langkah demi langkah membuat epi curve yang rapi untuk laporan surveilans.\n\n\n\n\n\nAug 12, 2026\n\n1 min\n\n\n\n\n\n\nAnalisis Survival: Kaplan-Meier untuk Pemula\n\n\n\nR\n\nMetode\n\nSurvival\n\n\n\nKonsep dasar analisis ketahanan hidup dan cara menjalankannya di R.\n\n\n\n\n\nJul 28, 2026\n\n1 min\n\n\n\n\n\n\nKenapa Saya Pindah dari Word ke Quarto\n\n\n\nQuarto\n\nProduktivitas\n\n\n\nAlur kerja riset yang bisa diulang, dari analisis sampai laporan akhir.\n\n\n\n\n\nJul 5, 2026\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "proyek/imunisasi.html",
+    "href": "proyek/imunisasi.html",
+    "title": "Tren Cakupan Imunisasi",
+    "section": "",
+    "text": "Dashboard tren cakupan imunisasi dasar lengkap per provinsi. Membandingkan capaian antarwilayah dari waktu ke waktu."
+  },
+  {
+    "objectID": "proyek/imunisasi.html#ringkasan",
+    "href": "proyek/imunisasi.html#ringkasan",
+    "title": "Tren Cakupan Imunisasi",
+    "section": "",
+    "text": "Dashboard tren cakupan imunisasi dasar lengkap per provinsi. Membandingkan capaian antarwilayah dari waktu ke waktu."
+  },
+  {
+    "objectID": "proyek/imunisasi.html#alat",
+    "href": "proyek/imunisasi.html#alat",
+    "title": "Tren Cakupan Imunisasi",
+    "section": "Alat",
+    "text": "Alat\nTableau, data profil kesehatan.\nDashboard"
+  },
+  {
+    "objectID": "proyek/stunting.html",
+    "href": "proyek/stunting.html",
+    "title": "Faktor Risiko Stunting",
+    "section": "",
+    "text": "Analisis faktor determinan stunting pada balita menggunakan regresi logistik. Mengidentifikasi variabel yang paling berhubungan dengan kejadian stunting."
+  },
+  {
+    "objectID": "proyek/stunting.html#ringkasan",
+    "href": "proyek/stunting.html#ringkasan",
+    "title": "Faktor Risiko Stunting",
+    "section": "",
+    "text": "Analisis faktor determinan stunting pada balita menggunakan regresi logistik. Mengidentifikasi variabel yang paling berhubungan dengan kejadian stunting."
+  },
+  {
+    "objectID": "proyek/stunting.html#temuan-utama",
+    "href": "proyek/stunting.html#temuan-utama",
+    "title": "Faktor Risiko Stunting",
+    "section": "Temuan utama",
+    "text": "Temuan utama\nPendidikan ibu, akses air bersih, dan riwayat berat lahir rendah muncul sebagai faktor paling kuat."
+  },
+  {
+    "objectID": "proyek/stunting.html#alat",
+    "href": "proyek/stunting.html#alat",
+    "title": "Faktor Risiko Stunting",
+    "section": "Alat",
+    "text": "Alat\nPython, pandas, statsmodels.\nLaporan lengkap   Kode di GitHub"
+  },
+  {
+    "objectID": "portofolio.html",
+    "href": "portofolio.html",
+    "title": "Portofolio",
+    "section": "",
+    "text": "Analisis dan dashboard yang saya kerjakan. Setiap kartu tautkan ke halaman detail, repo GitHub, atau demo langsung.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDashboard Surveilans DBD\n\n\n\nDashboard\n\nR Shiny\n\n\n\nPemantauan kasus demam berdarah per kecamatan dengan peta panas dan tren mingguan.\n\n\n\n\n\n\n\n\n\n\n\n\nFaktor Risiko Stunting\n\n\n\nAnalisis\n\nPython\n\n\n\nAnalisis regresi logistik faktor determinan stunting balita dari data Riskesdas.\n\n\n\n\n\n\n\n\n\n\n\n\nUji Diagnostik RDT Malaria\n\n\n\nRiset\n\nQuarto\n\n\n\nEvaluasi sensitivitas dan spesifisitas rapid test dibanding mikroskopis.\n\n\n\n\n\n\n\n\n\n\n\n\nTren Cakupan Imunisasi\n\n\n\nData Viz\n\nTableau\n\n\n\nVisualisasi capaian imunisasi dasar lengkap 2019 sampai 2025 tingkat provinsi.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publikasi.html",
+    "href": "publikasi.html",
+    "title": "Publikasi & Penelitian",
+    "section": "",
+    "text": "Daftar jurnal, prosiding, dan laporan. Quarto menarik daftar ini otomatis dari file referensi.bib. Anda cukup tambah entri baru di file itu.\n\n\n\n\n\n\n\n\n\nDaftar publikasi\n\nBasgoro, Muhammad Ilham. 2025a. “Evaluasi Sistem Surveilans Penyakit Menular Di Puskesmas Kota Padang.” Master’s thesis, Universitas Andalas.\n\n\nBasgoro, Muhammad Ilham. 2025b. “Pemodelan Spasial Penyebaran Demam Berdarah Menggunakan Analisis Autokorelasi.” Seminar Nasional Epidemiologi, 45–52.\n\n\nBasgoro, Muhammad Ilham et al. 2026. “Determinan Kejadian Stunting Pada Balita Di Wilayah Pesisir Sumatera Barat.” Jurnal Kesehatan Masyarakat Indonesia 14 (2): 88–97."
+  },
+  {
+    "objectID": "posts/kaplan-meier/index.html",
+    "href": "posts/kaplan-meier/index.html",
+    "title": "Analisis Survival: Kaplan-Meier untuk Pemula",
+    "section": "",
+    "text": "Analisis survival mengukur waktu sampai suatu kejadian terjadi. Contohnya waktu sampai sembuh atau sampai kambuh."
+  },
+  {
+    "objectID": "posts/kaplan-meier/index.html#menjalankan-di-r",
+    "href": "posts/kaplan-meier/index.html#menjalankan-di-r",
+    "title": "Analisis Survival: Kaplan-Meier untuk Pemula",
+    "section": "Menjalankan di R",
+    "text": "Menjalankan di R\nlibrary(survival)\nfit &lt;- survfit(Surv(waktu, status) ~ kelompok, data = pasien)\nplot(fit)\nKurva Kaplan-Meier menunjukkan probabilitas bertahan pada tiap titik waktu. Perbedaan antarkelompok diuji dengan log-rank test."
+  },
+  {
+    "objectID": "posts/kurva-epidemi/index.html",
+    "href": "posts/kurva-epidemi/index.html",
+    "title": "Membuat Kurva Epidemi di R dengan ggplot2",
+    "section": "",
+    "text": "Kurva epidemi menampilkan jumlah kasus baru per satuan waktu. Grafik ini penting untuk membaca pola wabah. Berikut cara membuatnya di R."
+  },
+  {
+    "objectID": "posts/kurva-epidemi/index.html#data-contoh",
+    "href": "posts/kurva-epidemi/index.html#data-contoh",
+    "title": "Membuat Kurva Epidemi di R dengan ggplot2",
+    "section": "Data contoh",
+    "text": "Data contoh\nlibrary(ggplot2)\nkasus &lt;- data.frame(\n  minggu = 1:11,\n  jumlah = c(24, 36, 58, 82, 96, 86, 66, 46, 32, 22, 16)\n)"
+  },
+  {
+    "objectID": "posts/kurva-epidemi/index.html#membuat-grafik",
+    "href": "posts/kurva-epidemi/index.html#membuat-grafik",
+    "title": "Membuat Kurva Epidemi di R dengan ggplot2",
+    "section": "Membuat grafik",
+    "text": "Membuat grafik\nggplot(kasus, aes(minggu, jumlah)) +\n  geom_col(fill = \"#d7ebe8\") +\n  geom_line(color = \"#dd5b34\", linewidth = 1) +\n  labs(x = \"Minggu\", y = \"Jumlah kasus\") +\n  theme_minimal()\nPuncak terlihat di minggu ke-5. Dari sini Anda bisa membaca fase naik dan turun wabah."
+  },
+  {
+    "objectID": "posts/quarto/index.html",
+    "href": "posts/quarto/index.html",
+    "title": "Kenapa Saya Pindah dari Word ke Quarto",
+    "section": "",
+    "text": "Word memisahkan analisis dan laporan. Setiap data berubah, saya harus salin ulang angka dan grafik. Quarto menyatukan keduanya."
+  },
+  {
+    "objectID": "posts/quarto/index.html#satu-sumber",
+    "href": "posts/quarto/index.html#satu-sumber",
+    "title": "Kenapa Saya Pindah dari Word ke Quarto",
+    "section": "Satu sumber",
+    "text": "Satu sumber\nKode, hasil, dan narasi ada di satu file .qmd. Data berubah, laporan ikut diperbarui saat dirender."
+  },
+  {
+    "objectID": "posts/quarto/index.html#banyak-format",
+    "href": "posts/quarto/index.html#banyak-format",
+    "title": "Kenapa Saya Pindah dari Word ke Quarto",
+    "section": "Banyak format",
+    "text": "Banyak format\nDari satu file bisa dihasilkan HTML, PDF, dan Word. Website ini juga dibuat dengan Quarto."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dari data, menjadi insight. Dari insight, menjadi keputusan.",
+    "section": "",
+    "text": "Epidemiolog | Data Analyst Enthusiast | GIS Enthusiast\n\n\n\n\n\nHalo, saya Muhammad Ilham Basgoro 👋 Saya percaya data yang baik dapat menghasilkan pemahaman yang lebih baik 🙌 Anda dapat mengakses portofolio dan CV saya di bawah ini👌\n\nLihat Portofolio   Unduh CV\n\n\n\n\nKurva Kasus Mingguan\n\n\n1.284 kasus\n\n\n  \n  \n  \n  \n  \n  \n  \n  \n\n\nM1 — M11 ▲ puncak M5"
+  },
+  {
+    "objectID": "index.html#sedikit-tentang-saya",
+    "href": "index.html#sedikit-tentang-saya",
+    "title": "Dari data, menjadi insight. Dari insight, menjadi keputusan.",
+    "section": "Sedikit tentang saya",
+    "text": "Sedikit tentang saya\n\nLatar belakang kesehatan masyarakat dan epidemiologi. Fokus pada analisis data, surveilans penyakit, dan penelitian yang menghasilkan bukti untuk pengambilan keputusan.\n\n\n\nPendidikan & Karier\n\n\n2026 — sekarang\n\n\nAsisten Dosen\n\n\nUniversitas Andalas\n\n\n\n\n2025 — 2026\n\n\nS2 Epidemiologi\n\n\nUniversitas Andalas\n\n\n\n\n2021 — 2025\n\n\nS1 Kesehatan Masyarakat\n\n\nUniversitas Andalas\n\n\n\n\nKeahlian\nR Python Quarto Stata GIS\n\nSertifikasi\n\n\n2025 — 2028\n\n\nCertified Data Analyst (CDA)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV & Kontak",
+    "section": "",
+    "text": "Dua hal yang paling sering dicari pengunjung. Buat mudah diakses.\n\n\n\n\nCurriculum Vitae\nRiwayat pendidikan, publikasi, dan pengalaman lengkap. Quarto bisa hasilkan CV format PDF dan HTML dari satu sumber.\n↓ Unduh CV (PDF)\n\n\n\n\nKontak\n\nEmail ilham.basgoro@email.com\n\n\nGitHub github.com/ibasgo\n\n\nLinkedIn in/ilham-basgoro\n\n\nLokasi Padang, Indonesia"
+  },
+  {
+    "objectID": "proyek/malaria-rdt.html",
+    "href": "proyek/malaria-rdt.html",
+    "title": "Uji Diagnostik RDT Malaria",
+    "section": "",
+    "text": "Evaluasi akurasi rapid diagnostic test malaria dibanding standar mikroskopis. Menghitung sensitivitas, spesifisitas, dan nilai prediksi."
+  },
+  {
+    "objectID": "proyek/malaria-rdt.html#ringkasan",
+    "href": "proyek/malaria-rdt.html#ringkasan",
+    "title": "Uji Diagnostik RDT Malaria",
+    "section": "",
+    "text": "Evaluasi akurasi rapid diagnostic test malaria dibanding standar mikroskopis. Menghitung sensitivitas, spesifisitas, dan nilai prediksi."
+  },
+  {
+    "objectID": "proyek/malaria-rdt.html#alat",
+    "href": "proyek/malaria-rdt.html#alat",
+    "title": "Uji Diagnostik RDT Malaria",
+    "section": "Alat",
+    "text": "Alat\nR, epiR, Quarto.\nPublikasi   Data"
+  },
+  {
+    "objectID": "proyek/dashboard-dbd.html",
+    "href": "proyek/dashboard-dbd.html",
+    "title": "Dashboard Surveilans DBD",
+    "section": "",
+    "text": "Dashboard interaktif untuk memantau kasus demam berdarah dengue tingkat kecamatan. Menampilkan peta panas, tren mingguan, dan indikator kewaspadaan dini."
+  },
+  {
+    "objectID": "proyek/dashboard-dbd.html#ringkasan",
+    "href": "proyek/dashboard-dbd.html#ringkasan",
+    "title": "Dashboard Surveilans DBD",
+    "section": "",
+    "text": "Dashboard interaktif untuk memantau kasus demam berdarah dengue tingkat kecamatan. Menampilkan peta panas, tren mingguan, dan indikator kewaspadaan dini."
+  },
+  {
+    "objectID": "proyek/dashboard-dbd.html#peran",
+    "href": "proyek/dashboard-dbd.html#peran",
+    "title": "Dashboard Surveilans DBD",
+    "section": "Peran",
+    "text": "Peran\nPerancangan alur data, pembuatan visualisasi, dan penataan dashboard."
+  },
+  {
+    "objectID": "proyek/dashboard-dbd.html#alat",
+    "href": "proyek/dashboard-dbd.html#alat",
+    "title": "Dashboard Surveilans DBD",
+    "section": "Alat",
+    "text": "Alat\nR, Shiny, sf, leaflet.\nDemo langsung   Kode di GitHub"
+  }
+]

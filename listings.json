@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/kurva-epidemi/index.html",
+      "/posts/kaplan-meier/index.html",
+      "/posts/quarto/index.html"
+    ]
+  },
+  {
+    "listing": "/portofolio.html",
+    "items": [
+      "/proyek/dashboard-dbd.html",
+      "/proyek/stunting.html",
+      "/proyek/malaria-rdt.html",
+      "/proyek/imunisasi.html"
+    ]
+  }
+]
